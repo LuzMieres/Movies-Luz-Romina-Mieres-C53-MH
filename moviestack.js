@@ -3,7 +3,7 @@ console.log(contenedor)
 
 function estructuraCard(image, title, tagline, overview) {
     return `
-    <div class="contenedor w-80 h-96 shadow-2xl border-solid border-2 border-white rounded-2xl text-center">
+    <div class="contenedor w-80 h-96 shadow-2xl border-solid border-2 border-white rounded-2xl text-center bg-violet-200 text-black">
     <img class="h-40 w-80 object-cover rounded-t-2xl" src="${image}" alt="imagen-fruta">
     <h4 class="font-bold">${title}</h4>
     <p class="p-3 text-xs">${tagline}</p>
