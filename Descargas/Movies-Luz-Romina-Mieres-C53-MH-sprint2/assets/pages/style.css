@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+div ::-webkit-scrollbar {
+    display: none;
+  }
